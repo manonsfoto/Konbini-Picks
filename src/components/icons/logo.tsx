@@ -5,8 +5,8 @@ const Logo = () => {
     <Image
       src="/logo.png"
       alt={`${process.env.SITE_NAME}`}
-      width={50}
-      height={50}
+      width={100}
+      height={100}
     />
   );
 };
