@@ -3,11 +3,11 @@ import { Menu } from "@/lib/shopify/types";
 import Link from "next/link";
 import MobileMenu from "./mobile-menu";
 import Search from "./search";
-import Logo from "../../icons/logo";
+import Logo from "@/components/icons/logo";
+
 
 const Navbar = async () => {
   const menu = await getMenu("konbini-picks-menu");
-
 
   return (
     <nav className="flex justify-between items-center p-4 lg:px-6">

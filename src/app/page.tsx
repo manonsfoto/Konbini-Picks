@@ -83,7 +83,7 @@ export default function Home() {
                 prefetch={false}
               >
                 <Image
-                  src="/lawsons-collection.png"
+                  src="/lawsons-collection.jpg"
                   width="400"
                   height="500"
                   alt="Lawson's Collection"
@@ -101,7 +101,7 @@ export default function Home() {
                 prefetch={false}
               >
                 <Image
-                  src="/familymarts-collection.png"
+                  src="/familymarts-collection.jpg"
                   width="400"
                   height="500"
                   alt="FamilyMart's Collection"
@@ -119,7 +119,7 @@ export default function Home() {
                 prefetch={false}
               >
                 <Image
-                  src="/7-elevens-collection.png"
+                  src="/7-elevens-collection.jpg"
                   width="400"
                   height="500"
                   alt="7-Eleven's Collection"
@@ -133,10 +133,10 @@ export default function Home() {
             <div className="grid gap-1">
               <Link href="/search" className="group" prefetch={false}>
                 <Image
-                  src="/all-collection.png"
+                  src="/all-products.jpg"
                   width="400"
                   height="500"
-                  alt="All Collection"
+                  alt="All Products"
                   className="aspect-[4/5] overflow-hidden rounded-lg object-cover group-hover:scale-105 transition-transform"
                 />
                 <h3 className="mt-4 text-lg font-bold group-hover:underline">
