@@ -1,7 +1,7 @@
 import { productFragment } from "../fragments/product";
 
 
-export const getProductQuery = `
+export const getProductQuery = /* GraphQL */ `
   query getProduct($handle: String!) {
     product(handle: $handle) {
       ...product
@@ -10,7 +10,7 @@ export const getProductQuery = `
   ${productFragment}
 `;
 
-export const getProductsQuery = `
+export const getProductsQuery = /* GraphQL */ `
   query getProducts(
     $sortKey: ProductSortKeys
     $reverse: Boolean
