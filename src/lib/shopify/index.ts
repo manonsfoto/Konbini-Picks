@@ -3,11 +3,16 @@ import {
   Menu,
   Product,
   ShopifyMenuOperation,
-  ShopifyProductsOperation,Image,
+  ShopifyProductsOperation,
+  Image,
   ShopifyProduct,
 } from "./types";
 import { getMenuQuery } from "./queries/menu";
-import { SHOPIFY_GRAPHQL_API_ENDPOINT, TAGS } from "../constants";
+import {
+  HIDDEN_PRODUCT_TAG,
+  SHOPIFY_GRAPHQL_API_ENDPOINT,
+  TAGS,
+} from "../constants";
 import { ensureStartWith } from "../utils";
 import { isShopifyError } from "../type-guards";
 import { getProductsQuery } from "./queries/product";
